@@ -78,12 +78,12 @@ return [
     'calendar'                             => 'Calendar',
     'dashboard'                            => 'Painel Principal',
     'datatables'                           => [
-        'copy'          => 'Copy',
+        'copy'          => 'Copiar',
         'csv'           => 'CSV',
         'excel'         => 'Excel',
         'pdf'           => 'PDF',
-        'print'         => 'Print',
-        'colvis'        => 'Column visibility',
+        'print'         => 'Imprimir',
+        'colvis'        => 'Visibilidade da coluna',
         'delete'        => 'Delete selected',
         'zero_selected' => 'No rows selected',
     ],
@@ -108,10 +108,10 @@ return [
     'simple_user'                          => 'Simple user',
     'title'                                => 'Title',
     'curso'                                => 'Cursos',
-    'roles'                                => 'Roles',
+    'roles'                                => 'Funcções',
     'role'                                 => [
-        'title'          => 'Roles',
-        'title_singular' => 'Role',
+        'title'          => 'Funcções',
+        'title_singular' => 'Função',
         'fields'         => [
             'id'                 => 'ID',
             'id_helper'          => '',
@@ -399,13 +399,13 @@ return [
     'team-management-singular'             => 'Team',
     'site_title'                           => 'PIN Academia',
     'userManagement'                       => [
-        'title'          => 'User Management',
-        'title_singular' => 'User Management',
+        'title'          => 'Gestão de Usuários',
+        'title_singular' => 'Gestão de Usuários',
         'fields'         => [],
     ],
     'permission'                           => [
-        'title'          => 'Permissions',
-        'title_singular' => 'Permission',
+        'title'          => 'Permisssões',
+        'title_singular' => 'Permissão',
         'fields'         => [
             'id'                => 'ID',
             'id_helper'         => '',

@@ -67,7 +67,7 @@
                                 
                             </td>
                             <td>
-                                {{ $curso['nome'] ?? '' }}
+                            {{ $curso['nome'] ?? '' }}
                             </td>
                             <td>
                             {{ $curso['inscricao'] ?? '' }}

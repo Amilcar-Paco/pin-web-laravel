@@ -71,12 +71,12 @@
                             </td>
                             <td>
                             {{ $inscricao['Horario'] ?? '--' }}
-                            
+
                             </td>
                             <td>
-                          
-                           
-                            @if($inscricao['estado'])         
+
+
+                            @if($inscricao['estado'])
                             <span class="label label-success">{{ trans('global.pago') }}</span>
                             @else
                             <a href="#" class="label label-default" id="pendenteBtn" >{{ trans('global.pendente') }}</a>
